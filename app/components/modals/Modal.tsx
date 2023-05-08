@@ -57,9 +57,10 @@ const Modal: React.FC<ModalProps> = ({
   if(!isOpen) {
     return null
   }
+
   return (
     <>
-      <div 
+      <div
         className="
           flex
           justify-center'
